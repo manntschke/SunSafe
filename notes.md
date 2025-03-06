@@ -17,7 +17,7 @@ Develop a system that identifies fraudulent electricity and gas consumption patt
 Improve fraud detection accuracy by refining flagged cases and categorizing them into risk-based verification bins.
 
 ### Key Tasks:
-- Introduce a **second-stage XGBoost model** to reduce false positives.
+- Introduce a **second-stage Decision tree** to reduce false positives.
 - Develop a **binning system** that categorizes flagged cases into risk levels (e.g., *Low, Medium, High*) for human review.
 - Provide a **customization option** for companies to choose which level of flagged cases they want to verify manually.
 - Build a **dashboard** for intuitive visualization and management of flagged cases.
