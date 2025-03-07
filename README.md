@@ -3,6 +3,40 @@
 
 ## **Primary Goal: Fraud Detection**
 
+## ***Client data***
+
+| Column Name   | Column Description                          |
+|--------------|-------------------------------------------|
+| client_id    | Unique id for client                     |
+| district     | District where the client is            |
+| client_catg  | Category client belongs to              |
+| region       | Area where the client is                |
+| creation_date | Date client joined                     |
+| target       | Fraud: 1, Not fraud: 0                  |
+
+## Invoice data
+
+| Column Name            | Column Description |
+|------------------------|-------------------|
+| client_id             | Unique id for the client |
+| invoice_date         | Date of the invoice |
+| tarif_type           | Type of tax |
+| counter_number       |  |
+| counter_statue       | Takes up to 5 values such as working fine, not working, on hold status, etc. |
+| counter_code         |  |
+| reading_remarque     | Notes that the STEG agent takes during his visit to the client (e.g: If the counter shows something wrong, the agent gives a bad score) |
+| counter_coefficient  | An additional coefficient to be added when standard consumption is exceeded |
+| consommation_level_1 | Consumption Level 1 |
+| consommation_level_2 | Consumption Level 2 |
+| consommation_level_3 | Consumption Level 3 |
+| consommation_level_4 | Consumption Level 4 |
+| old_index            | Old index |
+| new_index            | New index |
+| months_number        | Month number |
+| counter_type         | Type of counter |
+
+
+
 ### Objective:
 Develop a system that identifies fraudulent electricity and gas consumption patterns using advanced data analysis and machine learning techniques.
 
