@@ -58,6 +58,6 @@ def import_script():
         if col in test.columns:
             test.drop([col], axis=1, inplace=True)
 
-    train.to_csv('data/output/client_data.csv', index=False)
-    test.to_csv('data/output/validation.csv', index=False)
+    train.to_csv('data/data_processed/client_data.csv', index=False)
+    test.to_csv('data/data_processed/validation.csv', index=False)
     
