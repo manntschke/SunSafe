@@ -37,6 +37,44 @@
 
 
 
+## 🔋 Electricity and Gas Consumption Levels in Tunisia
+
+In Tunisia, **electricity and gas consumption levels (niveaux de consommation)** refer to **tariff categories** or **billing tiers** used by the **Société Tunisienne de l'Électricité et du Gaz (STEG)**. These levels (1 to 4) indicate how much energy a customer consumes and determine the pricing structure.
+
+---
+
+### 👉 Interpretation of Consumption Levels (1 to 4)
+These levels are generally used to classify **residential and commercial users** based on their electricity and gas usage. The categories help in:
+- **Applying progressive tariffs** (higher consumption → higher price per unit)
+- **Identifying subsidy eligibility** (lower levels might get subsidies)
+- **Analyzing fraud risks** (sudden jumps between levels can indicate fraud)
+
+#### **🔋 Electricity Consumption Levels**
+| Level | Approximate Monthly Consumption (kWh) | Characteristics |
+|--------|----------------------------------|----------------|
+| **1** | 0 - 100 kWh | Very low consumption (subsidized) |
+| **2** | 100 - 300 kWh | Typical residential usage |
+| **3** | 300 - 500 kWh | High residential or small business |
+| **4** | 500+ kWh | Large households, commercial, or industrial |
+
+> **Example:** If a customer suddenly jumps from **Level 2 to Level 4**, it might indicate **fraudulent meter tampering** or **illegal connections**.
+
+---
+
+#### **🔧 Gas Consumption Levels**
+| Level | Approximate Monthly Consumption (m³) | Characteristics |
+|--------|----------------------------------|----------------|
+| **1** | 0 - 30 m³ | Low usage (e.g., cooking only) |
+| **2** | 30 - 120 m³ | Standard household (heating + cooking) |
+| **3** | 120 - 300 m³ | Large household or small business |
+| **4** | 300+ m³ | High consumption (restaurants, industries) |
+
+> **Example:** A household that usually stays in **Level 2** but suddenly reaches **Level 4** could be involved in **illegal gas resale** or **leakage issues**.
+
+---
+
+
+
 ### Objective:
 Develop a system that identifies fraudulent electricity and gas consumption patterns using advanced data analysis and machine learning techniques.
 
